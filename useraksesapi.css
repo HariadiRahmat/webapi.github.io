@@ -1,0 +1,56 @@
+.custom-heading {
+    font-size: 3em; /* Custom size for h1 */
+    color: #150d7f;
+    padding-top: 30%; /* Default padding-top */
+}
+
+/* Media query untuk layar ponsel */
+@media (max-width: 768px) {
+    .custom-heading {
+        padding-top: 5%;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+input.btn.btn-primary.custom-button {
+    background-color: #150d7f !important; /* Warna latar belakang tombol */
+    border-color: #150d7f !important; /* Warna border tombol */
+    color: #ffffff !important; /* Warna teks tombol */
+}
+
+input.btn.btn-primary.custom-button:hover {
+    background-color: #d1eefd !important; /* Warna latar belakang tombol saat hover */
+    border-color: #d1eefd !important; /* Warna border tombol saat hover */
+    color: #0f0a5c !important;
+}
+
+
+.custom-alert {
+    background-color:#d1eefd !important; /* Warna latar belakang tombol */
+    border-color: #d1eefd !important; /* Warna border tombol */
+    color: #0f0a5c !important; /* Warna teks tombol */
+}
+.copy-button {
+            background: none; /* Hapus background tombol */
+            border: none; /* Hapus border tombol */
+            color: #0f0a5c; /* Warna ikon */
+            cursor: pointer; /* Mengubah cursor menjadi pointer saat dihover */
+            padding: 0; /* Hapus padding tombol */
+            font-size: 1.3em; /* Ukuran font untuk ikon */
+            margin-left: 15px;
+        }
+
+.copy-button:hover {
+            color: #516d7b; /* Warna ikon saat hover */
+        }
+
+ .copy-message {
+            color: #0f0a5c; /* Warna teks pesan */
+            margin-top: 10px; /* Jarak atas pesan */
+        }
+

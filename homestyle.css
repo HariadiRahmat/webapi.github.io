@@ -1,0 +1,37 @@
+.custom-heading {
+    font-size: 3em; /* Custom size for h1 */
+    color: #150d7f;
+    padding-top: 20%;
+}
+
+.custom-button {
+            background-color: #150d7f; /* Same color as heading */
+            border-color: #150d7f; /* Same color as heading */
+            color: white; /* Text color */
+        }
+        .custom-button:hover {
+            background-color: #4a4ced; /* Slightly darker color for hover effect */
+            border-color: #4a4ced; /* Slightly darker color for hover effect */
+        }
+        
+
+/* Place in your CSS file at the top of the document */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section1 {
+    background-color: #4a4ced;
+    color: white;
+}
+
+
+
+    /* Style untuk mengatur ukuran canvas */
+    #donatChart {
+        width: 300px; /* Atur lebar sesuai kebutuhan */
+        height: 300px; /* Atur tinggi sesuai kebutuhan */
+    }

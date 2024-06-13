@@ -1,0 +1,48 @@
+
+
+        .container {
+            margin: auto;
+        }
+
+        h2,
+        h3 {
+            color: #150d7f;
+        }
+
+        .request,
+        .response {
+            margin-bottom: 20px;
+        }
+
+        .tab {
+            display: flex;
+            border-bottom: 2px solid #eee;
+        }
+
+        .tab div {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .tab div:hover,
+        .tab div.active {
+            background-color: #f0f0f0;
+            border-bottom: 2px solid #6d3daf;
+        }
+
+        .content {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-top: -1px;
+        }
+
+        pre {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .hidden {
+            display: none;
+        }
